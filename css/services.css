@@ -1,0 +1,54 @@
+/* Style for the services section */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.services-title {
+    text-align: center;
+    font-weight: bold;
+}
+.services-sub-title {
+    font-size: 18px;
+    margin-top: -15px;
+}
+.services-section {
+    display: block;
+    width: 100%;
+    margin: 50px auto 0 auto;
+    text-align: center;
+}
+.services-box {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    background-color: #ddd;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.4);
+    margin: 5px;
+    padding: 10px;
+    vertical-align: top;
+    border-radius: 8px;
+}
+.services-btn {
+    color: deeppink;
+    font-weight: bold;
+    padding: 5px 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.services-btn:hover {
+    color: blue;
+}
+@media (max-width: 700px) {
+   .services-sectionv{
+       width: 90%;
+       text-align: center;
+   }
+  .services-box {
+      display: block;
+      width: 80%;
+      margin: 10px auto 10px auto;
+  }
+ .services-box p {
+     font-size: 14px;
+ }
+}

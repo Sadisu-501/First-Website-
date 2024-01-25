@@ -1,0 +1,13 @@
+.back-to-top {
+    position:fixed;
+    Bottom: 15px;
+    right: 15px;
+}
+.back-to-top a {
+    font-size: 24px;
+    color: white;
+    background-color: deeppink;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
